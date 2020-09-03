@@ -1,13 +1,104 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  background-color: #e8c7eb;
+
+}
+.main h1{
+  font: 30px Monaco, MonoSpace;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  right: 510px;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.typebartop{
+  border-radius: 2rem;
+  background-color: wheat;
+  margin: 2rem;
+  bottom: 220px;
+  position: relative;
+  left: 22rem;
+  top: 10rem;
+  
 }
+.typebarbottom{
+  border-radius: 2rem;
+  background-color: wheat;
+  margin: 2rem;
+  bottom: 200px;
+  position: relative;
+  left: 13rem;
+  top: 10rem;
+
+}
+.bt1{
+  position: relative;
+  left: 48rem;
+  bottom: 30px;
+  top: 300px;
+  
+}
+
+img{
+  width: 500px;
+  height: 400px;
+  position: relative;
+  left: 28rem;
+  top: 10rem;
+}
+.top{
+  position: relative;
+  right: 52px;
+  bottom: 20px;
+  opacity: 80%;
+  font-family: monospace;
+  color: black;
+  background-color: yellow;
+  display: inline-block;
+  
+  
+  
+}
+.bottom{
+  position: absolute;
+  left: 450px;
+  top: 670px;
+  opacity: 90%;
+  background-color:black;
+  font-family: monospace;
+  color: yellow;
+  display: inline;
+  padding-top: 3px;
+}
+.bt2{
+  top: 300px;
+  left: 800px;
+  position: relative;
+}
+.bt3{
+  position: relative;
+  top: 300px;
+  left: 830px;
+}
+.flies{
+  top: 80px;
+  height: 50px;
+  width: 50px;
+}
+.jackie{
+  top: 80px;
+  height: 50px;
+  width: 50px;
+  left: 850px;
+}
+.insta{
+  top: 580px;
+  height:50px;
+  width: 50px;
+  left: 100px;
+}
+.download{
+  position: relative;
+  right: 80px;
+}
+

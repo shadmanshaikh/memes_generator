@@ -1,17 +1,44 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import TextContent from './TextContent';
+import fly from './assets/fly.png'
+import jackie from './assets/jackie.png'
+import insta from './assets/insta.png'
+import EditableText from './EditableText'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+class Main extends React.Component {
+  render() {
+    return (
+        <div className="main">
+          <h1 className="shadow p-3 mb-5 bg-white rounded">
+           
+          Meme Generator
+                         <h3>
+                           <small> 
+                           <cite title="Source Title">by shadman shaikh</cite>
+                           </small>
+                         </h3>
+          </h1>
+          <img src={fly} className="flies"></img>
+          <img src={jackie} className="jackie"></img>
+              <a 
+               href="https://www.instagram.com/shady._xo/"
+               type="text"
+               placeholder="insta">       
+                <img src={insta} className="insta"></img>
+               </a>
+          
+
+             <TextContent/>
+             <EditableText/>  
+
+        </div>
+
+
+    );
+  }
+}
+
+ReactDOM.render(<Main />, document.getElementById('root'));
